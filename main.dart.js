@@ -26557,7 +26557,7 @@ apu:function apu(a){this.a=a},
 aEo(){var s=new A.alj(),r=new A.P8(A.a([],t.lC),new A.Dj(),new A.Dj(),new A.Dj()),q=new A.a6t($,r,$,new A.a6k(),!1),p=A.aR3()
 q.SM$=p
 q.SN$=new A.a4m(A.b4(t.Gf))
-p.q9$="https://sr-wave-api.shiprocket.in"
+p.q9$="https://sr-wave-qa-1.kartrocket.com"
 p.d=p.m8$=15e3
 p.f=B.eo
 r.A(r,new A.Dk())

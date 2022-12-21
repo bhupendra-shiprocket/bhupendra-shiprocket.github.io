@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "431d9c952ebce50ed5dd7a3fb0f7f42c",
-"index.html": "c5ac6c5a431fc53a0ec3f3bf3dce7a5c",
-"/": "c5ac6c5a431fc53a0ec3f3bf3dce7a5c",
-"main.dart.js": "651089b17d91c4eeabafdb6b705ad78c",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"index.html": "43044a0be5038ad478cb7d339bd22689",
+"/": "43044a0be5038ad478cb7d339bd22689",
+"main.dart.js": "a2a0ca6a81cc03b5fbadad0f944337fc",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -76,11 +75,7 @@ const RESOURCES = {
 "assets/assets/icons/accounts/feedback@2x.png": "ad35dbd25748aa0ea9a579021b22a424",
 "assets/assets/icons/accounts/bg.png": "e2eb016b72376536fec47fe8638c1e86",
 "assets/assets/fonts/poppins/poppins_semibold.ttf": "4cdacb8f89d588d69e8570edcbe49507",
-"assets/assets/fonts/poppins/poppins_regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"assets/assets/fonts/poppins/poppins_regular.ttf": "8b6af8e5e8324edfd77af8b3b35d7f9c"
 };
 
 // The application shell files that are downloaded before a service worker can
