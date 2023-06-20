@@ -16,12 +16,12 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="My Shiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.">
+  <meta name="description" content="myShiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.">
   <meta name="theme-color" content="#121212">
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="My Shiprocket">
+  <meta name="apple-mobile-web-app-title" content="myShiprocket">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -31,24 +31,26 @@
   <!-- Style CSS -->
 <!--  <link rel="stylesheet" type="text/css" href="styles.css">-->
 
-  <title>My Shiprocket</title>
+  <title>myShiprocket</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1523306227';
+    var serviceWorkerVersion = '2381026576';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
-  <script src="clevertap.js" defer=""></script>
+<!--  <script src="clevertap.js" defer=""></script>-->
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <script src="dom_handler.js"></script>
+<!--  <script src="splash.js"></script>-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 </head>
 
 <body>
-
-
+  
+  
 <div class="container">
   <style>
   #splashLoader {
@@ -78,6 +80,7 @@
 </script>
 
 <script>
+
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
